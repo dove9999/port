@@ -7,67 +7,37 @@
     <link rel="stylesheet" type="text/css" href="fullpage.css" />
     <script type="text/javascript" src="fullpage.js"></script>
     <style>
-        
-        #fullpage .section:nth-child(1){
-            background: url(./title.png) center/cover;
-        }
-        #fullpage .section:nth-child(2){
-            background: url(./profile.png) center/cover;
-        }
-        
-        .section:nth-child(3){
+        .page1{
+            width: 1600px;
+            height: 900px;
+            margin: auto;
             position: relative;
+            align-items: center;
+            background-color: gray;
         }
-        .section:nth-child(3) iframe{
-            position: absolute;
-            width: 100%;
-            height: 100%;
-
-        }
-        .section:nth-child(3) video{
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-	 .section:nth-child(3){
+        .page2{
+            width: 1600px;
+            height: 900px;
+            margin: auto;
             position: relative;
-	            }
-        .section:nth-child(4) iframe{
-            position: absolute;
-            width: 100%;
-            height: 100%;
+            align-items: center;
+            background-color: gray;
+            margin-top: 100px;
+        }    
+        .main{
+            text-align: center;
+        }
 
-        }
-        .section:nth-child(4) video{
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
     </style>
 </head>
 <body>
-    <div id="fullpage">
-        <div class="section">  </div>
-        <div class="section">  </div>
-        <div class="section">
-            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1045269936?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="프로파일_이동헌"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-        </div>
-	<div class="section"> 
-	<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1045269969?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="모션그래픽_이동헌"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-	</div>
-	
-    <script>
-        new fullpage('#fullpage', {
-            
-            navigation: true,    
-	    autoScrolling:true,
-	    scrollHorizontally: true
-        
-        });
-    </script>
+<div class="main"> <br><h2>포트폴리오_이동헌</h2> <br></div>
+<div class="page1"><iframe width="1600" height="900" src="https://www.youtube.com/embed/Di_D1YAtjf8?si=MVoMl98wQXwdE3v7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="page2"><iframe width="1600" height="900" src="https://www.youtube.com/embed/cbXCsGIGR8I?si=6UPw-Jrq8zXdXpyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
     
-</body>
 
+<div class="end"><br></div>
+    
+
+</body>
 </html>
